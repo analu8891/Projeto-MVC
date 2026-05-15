@@ -25,3 +25,10 @@ no terminal:
 ````bash
 python -m alembic upgrade head  
 ````
+
+# Rodar o código
+
+no terminal:
+````bash
+python -m uvicorn app.main:app --reload  
+````
